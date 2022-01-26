@@ -1,0 +1,28 @@
+To learn algorithms, you do not need to attend a fancy ivy league computer science program or even attend a university. You do not need special equipment. You simply need to implement as many algorithms as possible. Practice makes us better, everyday, inch by inch. As we encounter different problems and work toward solutions to each, we come to better understand the algorithms themselves.
+
+Algorithm Basics:
+  This section covers concepts necessary for the analysis of algorithms. Here, we cover the differences between algorithms and data structures, dive into Big O notation, and consider situations where practicality overshadows the theory behind runtime calculations. 
+Algorithms are much like recipes in that they clearly outline the individual steps one must complete to perform a given task. Why do we need algorithms? We write them to find solutions to difficult problems. Remember those complicated math problems such as those that trolled your nightmares in Algebra class? Ever wondered how Google Maps identifies the shortest and/or quickest path to take through the hundreds or thousands of streets? Maybe you or a client have a load of cash and want to know what combination of investments are most likely to maximize your profits.
+I assume you are as eager as I was to ski past the basics and jump directly into the specific algorithms that will help you ace an interview with a silicon valley staple like Amazon or Netflix, and land that sweet six figure salary.
+
+Approach:
+  To maximize performance, we must not only follow step by step instructions, but also develop a thorough understanding of four elements:
+    1. Behavior. Have we identified the best possible solution? Does more than one “best” solution exist? If so, how do we determine which of those solutions is most desirable in the context of the problems presented?
+    2. Speed. Is our solution quick or slow? If it is fast in most instances, are there edge cases that dramatically impact performance?
+    3. Memory Requirements. We should ask ourselves: 
+      - “How much memory does our solution require?”
+      - “Is it justifiable to allocate that much memory?”
+      - “Might this algorithm seek more memory than is feasibly available to our computer?”
+    4. Main Techniques Used. Many algorithms present patterns that can be cross applied to remedy similar problems. We can pinpoint these connections and reuse our approach.
+
+Algorithms and Data Structures:
+  An algorithm is a set of step by step instructions for implementing a solution or getting a job done, much like the scientific method or those head scratching diagrams that accompany IKEA products. A data structure describes a scheme. Examples of data structures include: arrays, linked lists, trees, graphs, networks and more. Algorithms may be deeply coupled with data structures. It is not uncommon for an algorithm to instruct the computer to build, use and/or edit a data structure. Often, an algorithm can’t perform its task without building or interacting with a data structure. Likewise, a data structure can be a waste of memory if it is not put to use in the service of completing a task.
+
+Pseudocode
+Algorithm Features
+Big O Notation
+Common Runtime Functions
+Visualizing Functions
+Practical Considerations
+Summary
+Exercises
