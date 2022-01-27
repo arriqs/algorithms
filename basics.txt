@@ -19,8 +19,19 @@ Algorithms and Data Structures:
   An algorithm is a set of step by step instructions for implementing a solution or getting a job done, much like the scientific method or those head scratching diagrams that accompany IKEA products. A data structure describes a scheme. Examples of data structures include: arrays, linked lists, trees, graphs, networks and more. Algorithms may be deeply coupled with data structures. It is not uncommon for an algorithm to instruct the computer to build, use and/or edit a data structure. Often, an algorithm can’t perform its task without building or interacting with a data structure. Likewise, a data structure can be a waste of memory if it is not put to use in the service of completing a task.
 
 Pseudocode
-Algorithm Features
+Algorithm Features:
+  Three essential features ensure we write solid algorithms.
+    1. Accuracy - if it does not output the correct answer or function as expected, it may not be of much use.
+    2. Maintainability - can be dangerous to implement an algorithm that is not simple and intuitive as it can be difficult to debug.
+    3. Efficiency - not much use if it takes too long to complete the task, even if the underlying code is elegant and simple to read.
 Big O Notation
+  Describes how the performance in the worst case scenario relates to the problem as it scales. Also known as aymptotic performance. Function used to denote this relationship is written in parentheses after the capital letter "O". O(N^2) may be pronounced "order N squared."
+  Five rules for calculating Big O
+    1. If the algorithm follows a particular sequence of steps f(N) times for a mathematical function f, it takes O(f(N)) steps.
+    2. If it performs an operation that takes O(f(N)) steps and performs a second opation that takes O(g(N)) steps for functions f and g, the algorithm's total performance is O(f(N) + g(N)).
+    3. If it takes O(f(N) + g(N)) and the function f(N) is greater than g(N) for large N, the algorithm's performance can be simplified to O(f(N)).
+    4. If it performs an operation that takes O(f(N)) steps, and for every step in that operation it performs another O(g(N)) steps, the algorithm's total performance is O(f(N x g(N)).
+    5. Ignore constant multiples. If C is constant, O(C x f(N)) is the same as O(f(N), and O(f(C x N)) is the same as O(f(N)).
 Common Runtime Functions
 Visualizing Functions
 Practical Considerations
