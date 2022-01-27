@@ -1,0 +1,8 @@
+Graph is a data structure that may be the most familiar as it closely resembles daily life. Friend circle is a graph. Persons G, B, and E could all be direct friends of A, but C, D, and F may be indirect frieds of A. This is a social graph. When it comes to data structures, three types of graphs present a good place to begin study.
+  1. Undirected - Nodes on the graph have two-way relationships
+  2. Directed - Nodes have one-way relationships
+  3. Weighted - Relationships between nodes may be two-way or one-way, and they are also weighted by time, distance, size, or a plethora of other methods. City maps are weighted graphs because each destination is connected by a segment of a street which has a distance as well as the added hurdle of traffic.
+  
+  A graph is a non-linear data structure made of vertices and edges.
+  The degree of a vertex is the number of edges connected to it.
+  In-Degree: if the "in-degree" of a vertex is d, there are d directional edges incident to the vertex. 
